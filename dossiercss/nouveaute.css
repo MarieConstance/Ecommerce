@@ -105,47 +105,75 @@ li{
     margin-top: 50px;
   }
 
-.prligne{
-    margin-top: 100px;
-    margin-left: 130px;
+.grandediv{
+    height: 100%;
     width: 80%;
-    height:40% ;
-    border: 2px solid greenyellow;
     display: flex;
-    justify-content: space-between;
-  }
-.element1{
-    width: 30%;
-    border: #D3C4C9 2px solid;
-    border-radius:#D3C4C9 100px solid;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+.grandediv .mesdiv{
+    height: 560px;
+    width: 450px;
+    background-color: #D3C4C9;
+    margin: 10px;
     text-align: center;
-    margin-left: 30px;
-   
+    margin-bottom: 200px;
 }
-.element1 img{
-    margin-top: 20px;
-    height: 50%;
-    
+.mesdiv:hover{
+    height: 560px;
+    width: 450px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 200px;
 }
-.basrose{
+
+.grandediv div .mesimages{
+    height: 350px;
+    width: 400px;
+    padding: 5px;
+    margin-top: 12px;
+}
+.grandediv .mesicons{
+    width: 40px;
+    height: 30px;
+    margin-top: 15px;
+}
+.alignicon{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.alignicon h3{
+width: 190px;
+}
+
+.grandediv .p1{
+    font-size: 20px;
+}
+
+.grandediv .p2{
     background-color: #D3638E;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    height: 30px;
+    height: 50px;
     width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 22px;
 }
-.imag1{
-    padding-top: -30%;
-    margin-left: 200px;
-    
-}
+
 .cardrose{
     background-color: #D3638E;
     width: 80%;
     height: 270px;
     border-radius: 40px;
-    margin-top: 120px;
-    margin-left: 150px;
+    margin-top: 5%;
+    margin-left: 200px;
     display: flex;
 }
 
@@ -168,9 +196,9 @@ li{
     margin-left: 60px;
     margin-top: -10px;
     text-align: center;
-}
+} */
 
-/*--------------avant footer ------------------*/
+/*-----------------   avant footer -------------------*/
 .avantfooter{
     width: 100%;
     display: flex;
@@ -215,3 +243,4 @@ li{
     width: 1000px;
     margin-left: 650px;
 }
+

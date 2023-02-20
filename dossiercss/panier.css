@@ -27,7 +27,7 @@ header{
 #delices{
     font-size: 30px;
     color: white;
-    font-family: Porter Sans Block;
+    font-family: Porter Sans Block; 
 }
 
 .head{
@@ -63,10 +63,10 @@ li{
     color: #5e2b2b;
     font-size: 50px;
 }
-.titrepanier img{
-   
-   
-}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 
 /*--------------avant footer ------------------*/
 .avantfooter{
