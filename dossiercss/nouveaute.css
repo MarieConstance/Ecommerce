@@ -99,11 +99,76 @@ li{
     box-shadow: grey 8px 8px 8px 8px;
    
   }
-  .delice p{
+.delice p{
     color: white;
     font-size: 40px;
     margin-top: 50px;
   }
+
+.prligne{
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 80%;
+    height:40% ;
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+  }
+.element1{
+    width: 30%;
+    border: #D3C4C9 2px solid;
+    border-radius:#D3C4C9 100px solid;
+    text-align: center;
+    margin-left: 30px;
+   
+}
+.element1 img{
+    margin-top: 20px;
+    height: 50%;
+    
+}
+.basrose{
+    background-color: #D3638E;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 30px;
+    width: 100%;
+}
+.imag1{
+    padding-top: -30%;
+    margin-left: 200px;
+    
+}
+.cardrose{
+    background-color: #D3638E;
+    width: 80%;
+    height: 270px;
+    border-radius: 40px;
+    margin-top: 120px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.imagefamille{
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+ .rge{
+    color: #D4131F;
+    font-size: 50px;
+    margin-left: 60px;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.noterbien p{
+    font-size: 45px;
+    color: white;
+    margin-left: 60px;
+    margin-top: -10px;
+    text-align: center;
+}
 
 /*--------------avant footer ------------------*/
 .avantfooter{
