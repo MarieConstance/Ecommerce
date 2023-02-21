@@ -64,8 +64,56 @@ li{
     font-size: 50px;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid grey;
     border-collapse: collapse;
+    height: 50px;
+  }
+
+ th{
+    background-color: #D3638E;
+  }
+.ligne1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.ligne1 td{
+     width: 40px;
+     height:250px ;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+.boutons{
+display: flex;
+}
+.boutonrose{
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    border: #D3638E ;
+    background-color: #D3638E;
+    padding-top: 10px;
+    color: white;
+    margin-left:800px;
+    margin-top: 50px;
+}
+.boutonrose:hover{
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    border:#D3638E ;
+    background-color: white;
+    padding-top: 10px;
+    color:#D3638E  ;
+    margin-left:800px;
+    margin-top: 50px;
+   
   }
 
 /*--------------avant footer ------------------*/
