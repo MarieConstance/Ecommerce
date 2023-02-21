@@ -51,72 +51,33 @@ li{
     list-style-type: none;
     
 }
+/*---------------------corps-------------------------*/
 
-.titrepanier{
+.paniervide{
+    width: 500px;
+    height: 350px;
+    margin-top: 6%;
+    margin-left: 38%;
     text-align: center;
-    width: 100%;
-    height: 10%;
-    margin-left: auto;
-    margin-top: 100px;
+    background-color: #D3638E;
+    border-radius: 100%;
 }
-.titrepanier h1{
-    color: #5e2b2b;
+.paniervide img{
+    width: 250px;
+    height: 200px;
+    margin-top: 60px;
+}
+.visitepanier{
+    text-align: center;
+    margin-top: 50px;
+}
+.visitepanier h1{
     font-size: 50px;
 }
-table, th, td {
-    border: 2px solid grey;
-    border-collapse: collapse;
-    height: 50px;
-    margin-top: 150px;
-  }
-
- th{
-    background-color: #D3638E;
-    font-size: 30px;
-  }
-.ligne1 img{
-    width: 250px;
-    height: 270px;
-}
-.ligne1 td{
-     width: 40px;
-     height:250px ;
-}
-
-.flex{
-    display:block;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 20px;
-}
-.flex p{
+.visitepanier h2{
     font-size: 30px;
 }
 
-.grandspan{
-    width: 300px;
-    height: 80px;
-    justify-content: center;
-}
-.grandspan span{
-   height: 100px;
-   padding: 20px;
-   border: 1px solid white;
-   border-left: 1px solid gray;
-   background-color: white;
-   justify-items: center;
-   text-align: center;
-}
-.prix{
-    font-size: 30px;
-    text-align: center;
-}
-
-.boutons{
-display: flex;
-justify-content: space-around;
-margin-top: 200px;
-}
 .boutonrose{
     width: 300px;
     height: 60px;
@@ -126,7 +87,7 @@ margin-top: 200px;
     background-color: #D3638E;
     padding-top: 5px;
     color: white;
-    margin-left:100px;
+    margin-left:60px;
     font-size: 20px;
 }
 .boutonrose:hover{
@@ -138,7 +99,7 @@ margin-top: 200px;
     background-color: white;
     padding-top: 5px;
     color:#D3638E  ;
-    margin-left:100px;
+    margin-left:60px;
   }
 
 /*--------------avant footer ------------------*/
