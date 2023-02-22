@@ -138,6 +138,7 @@ li{
     justify-content: space-around;
     margin: auto;
     border: #460820 2px solid;
+    flex-wrap: wrap;
    
 }
 .listegato3{
@@ -148,6 +149,7 @@ li{
     padding-top: 100px;
     margin: auto;
     border: #460820 2px solid;
+    flex-wrap: wrap;
 }
 .image2{
     width: 600px;
@@ -177,7 +179,7 @@ li{
 }
 /************************     bouton gateau        ************************/
 .boutonga{
-    width: 200px;
+    width: 300px;
     height: 50px;
     border-radius: 40px;
     text-align: center;
@@ -201,6 +203,8 @@ li{
     margin-top: 50px; */
    
   }
+
+  
 
   /*------------------------------------------------------*/
   .livrer h1{
@@ -239,6 +243,12 @@ li{
     margin-left:800px;
     margin-top: 50px;
    
+  }
+  .boutonmarron a{
+    color: white;
+  }
+  .boutonmarron a:hover{
+    color: #5e2b2b;
   }
 
   /*--------------avant footer ------------------*/
