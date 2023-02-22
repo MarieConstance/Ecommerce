@@ -16,3 +16,6 @@ function fonctionslid (){
 
     setTimeout(fonctionslid, 2000)
 }
+
+
+    
