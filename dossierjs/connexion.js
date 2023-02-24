@@ -9,7 +9,7 @@ btnCon.addEventListener('click', (e)=>{
     let motdepasse = document.querySelector('.mdp').value
 
     if (nom === localStorage.getItem('nom') && adressemail === localStorage.getItem('email') && motdepasse === localStorage.getItem('mdp')){
-
+        alert("mo")
         location.pathname = '../dossierhtml/indexprofil.html'
     }
 })
