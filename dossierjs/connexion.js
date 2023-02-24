@@ -12,7 +12,7 @@ btnCon.addEventListener('click', (e)=>{
     if (nom === localStorage.getItem('nom') && adressemail === localStorage.getItem('email') && motdepasse === localStorage.getItem('mdp')){
 
         console.log("ok");
-        window.location.href = '../dossierhtml/indexprofil.html'
+        window.location.href = 'indexprofil.html'
     }else{
         alert("mot de passe ou identifiant incorrecte");
         console.log("ok");
